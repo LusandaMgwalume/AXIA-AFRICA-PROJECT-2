@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaizer Chiefs Fan Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'chiefs-gold': '#FFC107',
+            'chiefs-black': '#1A1A1A'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-yellow-50 text-black">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-yellow-600 text-white">
+    <h1 class="text-xl font-bold">Kaizer Chiefs</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#" class="hover:underline">Home</a></li>
+      <li><a href="#features" class="hover:underline">Features</a></li>
+      <li><a href="#about" class="hover:underline">About</a></li>
+      <li><a href="#contact" class="hover:underline">Contact</a></li>
+      <li><a href="login.html" class="hover:underline">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-yellow-100">
+    <h2 class="text-4xl font-bold mb-4">Welcome to Amakhosi Central</h2>
+    <p class="text-lg mb-6">Track matches, explore jerseys, and celebrate victories with fellow fans.</p>
+    <a href="signup.html" class="bg-yellow-600 text-white px-6 py-3 rounded hover:bg-yellow-700">Get Started</a>
+  </section>
+
+  <!-- Homepage Section -->
+  <section class="bg-chiefs-black text-white overflow-x-hidden">
+    <div class="min-h-screen flex">
+      <!-- Left Section with Logos -->
+      <aside class="w-1/4 bg-chiefs-black flex flex-col justify-center items-center space-y-8 p-8">
+        <!-- Logo 1 -->
+        <div class="w-32 h-32 bg-chiefs-gold rounded-full flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
+          <svg viewBox="0 0 120 120" class="w-24 h-24 text-chiefs-black">
+            <circle cx="60" cy="60" r="50" fill="currentColor" stroke="#FFC107" stroke-width="2"/>
+            <circle cx="25" cy="35" r="6" fill="#FFC107"/>
+            <circle cx="95" cy="35" r="6" fill="#FFC107"/>
+            <g stroke="#FFC107" stroke-width="2">
+              <line x1="60" y1="20" x2="60" y2="40"/>
+              <line x1="75" y1="25" x2="70" y2="42"/>
+              <line x1="85" y1="40" x2="72" y2="52"/>
+              <line x1="85" y1="60" x2="72" y2="60"/>
+              <line x1="85" y1="80" x2="72" y2="68"/>
+              <line x1="75" y1="95" x2="70" y2="78"/>
+              <line x1="60" y1="100" x2="60" y2="80"/>
+              <line x1="45" y1="95" x2="50" y2="78"/>
+              <line x1="35" y1="80" x2="48" y2="68"/>
+              <line x1="35" y1="60" x2="48" y2="60"/>
+              <line x1="35" y1="40" x2="48" y2="52"/>
+              <line x1="45" y1="25" x2="50" y2="42"/>
+            </g>
+            <text x="60" y="50" text-anchor="middle" class="text-xs font-bold fill-current">KAIZER</text>
+            <text x="60" y="80" text-anchor="middle" class="text-xs font-bold fill-current">CHIEFS</text>
+            
+          </svg>
+        </div>
+
+        <!-- Logo 2 and 3 (same as Logo 1) -->
+        <!-- Repeating Logo 1 for Logo 2 and Logo 3 -->
+        <div class="w-32 h-32 bg-chiefs-gold rounded-full flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
+          <svg viewBox="0 0 120 120" class="w-24 h-24 text-chiefs-black">
+            <circle cx="60" cy="60" r="50" fill="currentColor" stroke="#FFC107" stroke-width="2"/>
+            <circle cx="25" cy="35" r="6" fill="#FFC107"/>
+            <circle cx="95" cy="35" r="6" fill="#FFC107"/>
+            <g stroke="#FFC107" stroke-width="2">
+              <line x1="60" y1="20" x2="60" y2="40"/>
+              <line x1="75" y1="25" x2="70" y2="42"/>
+              <line x1="85" y1="40" x2="72" y2="52"/>
+              <line x1="85" y1="60" x2="72" y2="60"/>
+              <line x1="85" y1="80" x2="72" y2="68"/>
+              <line x1="75" y1="95" x2="70" y2="78"/>
+              <line x1="60" y1="100" x2="60" y2="80"/>
+              <line x1="45" y1="95" x2="50" y2="78"/>
+              <line x1="35" y1="80" x2="48" y2="68"/>
+              <line x1="35" y1="60" x2="48" y2="60"/>
+              <line x1="35" y1="40" x2="48" y2="52"/>
+              <line x1="45" y1="25" x2="50" y2="42"/>
+            </g>
+            <text x="60" y="50" text-anchor="middle" class="text-xs font-bold fill-current">KAIZER</text>
+            <text x="60" y="80" text-anchor="middle" class="text-xs font-bold fill-current">CHIEFS</text>
+
+          </svg>
+        </div>
+
+        <div class="w-32 h-32 bg-chiefs-gold rounded-full flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
+            <circle cx="60" cy="60" r="50" fill="currentColor" stroke="#FFC107" stroke-width="2"/>
+            <circle cx="25" cy="35" r="6" fill="#FFC107"/>
+            <circle cx="95" cy="35" r="6" fill="#FFC107"/>
+            <g stroke="#FFC107" stroke-width="2">
+              <line x1="60" y1="20" x2="60" y2="40"/>
+              <line x1="75" y1="25" x2="70" y2="42"/>
+              <line x1="85" y1="40" x2="72" y2="52"/>
+              <line x1="85" y1="60" x2="72" y2="60"/>
+              <line x1="85" y1="80" x2="72" y2="68"/>
+              <line x1="75" y1="95" x2="70" y2="78"/>
+              <line x1="60" y1="100" x2="60" y2="80"/>
+              <line x1="45" y1="95" x2="50" y2="78"/>
+              <line x1="35" y1="80" x2="48" y2="68"/>
+              <line x1="35" y1="60" x2="48" y2="60"/>
+              <line x1="35" y1="40" x2="48" y2="52"/>
+              <line x1="45" y1="25" x2="50" y2="42"/>
+            </g>
+            <text x="60" y="50" text-anchor="middle" class="text-xs font-bold fill-current">KAIZER</text>
+            <text x="60" y="80" text-anchor="middle" class="text-xs font-bold fill-current">CHIEFS</text>
+          </svg>
+        </div>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="flex-1 flex">
+        <!-- Center Section with Motto and Player -->
+        <section class="w-1/2 bg-chiefs-black flex flex-col justify-center items-center p-8">
+          <div class="text-center mb-8">
+            <h1 class="text-6xl font-bold text-chiefs-gold mb-4 tracking-wider">AMAKHOSI</h1>
+            <h2 class="text-4xl font-bold text-chiefs-gold mb-2 tracking-wider">OKTHULA</h2>
+            <h3 class="text-4xl font-bold text-chiefs-gold tracking-wider">NOXOLO</h3>
+          </div>
+          <div class="relative group">
+            <img src="images/mdu.jpeg" alt="Kaizer Chiefs Player" class="w-80 h-96 object-cover rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300" referrerpolicy="no-referrer" />
+            <div class="absolute inset-0 bg-gradient-to-t from-chiefs-black/50 to-transparent rounded-lg"></div>
+          </div>
+        </section>
+
+        <!-- Right Section with Team Photo -->
+        <section class="w-1/2 bg-chiefs-gold flex items-center justify-center p-8">
+          <div class="relative group">
+            <img src="images/khosi-1.jpg.optimal.jpg" alt="Kaizer Chiefs Team" class="w-full max-w-md h-96 object-cover rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300" referrerpolicy="no-referrer" />
+            <div class="absolute inset-0 bg-gradient-to-t from-chiefs-black/30 to-transparent rounded-lg"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 px-6 bg-white">
+    <h3 class="text-2xl font-bold text-center mb-10">Features</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-yellow-100 p-6 rounded shadow text-center">
+        <h4 class="font-bold mb-2">Match Tracker</h4>
+        <p>Stay updated with fixtures, scores, and derby highlights.</p>
+      </div>
+      <div class="bg-yellow-100 p-6 rounded shadow text-center">
+        <h4 class="font-bold mb-2">Jersey Gallery</h4>
+        <p>Browse iconic kits from past and present seasons.</p>
+      </div>
+      <div class="bg-yellow-100 p-6 rounded shadow text-center">
+        <h4 class="font-bold mb-2">Fan Polls</h4>
+        <p>Vote for your favorite players and match moments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-yellow-50 text-center">
+    <h3 class="text-2xl font-bold mb-4">About This Platform</h3>
+    <p class="max-w-xl mx-auto">Built by fans, for fans — this portal is your digital home for all things Kaizer Chiefs. From match stats to jersey nostalgia, we’ve got you covered.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-600 text-white py-6 px-6 flex justify-between items-center">
+    <div>
+      <p>&copy; 2025 Kaizer Chiefs Fan Portal</p>
+      <a href="#" class="text-sm underline">Privacy Policy</a>
+    </div>
+    <div class="flex space-x-4">
+      <i class="fa-brands fa-facebook"></i>
+      <a href="#"><img src="twitter-icon.svg" alt="Twitter" class="h-6" /></a>
+      <a href="#"><img src="instagram-icon.svg" alt="Instagram" class="h-6" /></a>
+    </div>
+  </footer>
+
+</body>
+</html>

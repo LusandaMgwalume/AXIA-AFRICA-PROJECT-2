@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignments | Kaizer Chiefs Fan Portal</title>
+  <script src="js/assignments.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex h-screen bg-yellow-50">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-yellow-600 text-white p-6 space-y-6">
+    <h2 class="text-xl font-bold">Amakhosi Portal</h2>
+    <nav class="space-y-4">
+      <a href="dashboard.html" class="block hover:underline">Dashboard</a>
+      <a href="courses.html" class="block hover:underline">Courses</a>
+      <a href="assignments.html" class="block hover:underline font-bold">Assignments</a>
+      <a href="profile.html" class="block hover:underline">Profile</a>
+      <a href="login.html" class="block hover:underline">Logout</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 overflow-y-auto">
+    <h1 class="text-2xl font-bold text-yellow-700 mb-6">Your Assignments</h1>
+    <ul id="assignmentsList" class="space-y-4"></ul>
+  </main>
+
+</body>
+</html>
